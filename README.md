@@ -8,7 +8,8 @@ The process of getting url and summaries of articles occurs in two phases. First
 
 ## How to run wiki_scraper.py ##
 The example out.json file provided was run using :
-::
-  $ python wiki_extractor.py --keyword="Indian Historical Events" --num_urls=10 --output="out.json"
-  
+
+'''zsh
+python wiki_extractor.py --keyword="Indian Historical Events" --num_urls=10 --output="out.json"
+'''
 
